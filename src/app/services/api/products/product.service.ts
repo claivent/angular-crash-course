@@ -3,7 +3,7 @@ import {HttpClient} from "@angular/common/http";
 import {ProductRepresentation} from "../models/product-representation";
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'app-root'
 })
 export class ProductService {
 
