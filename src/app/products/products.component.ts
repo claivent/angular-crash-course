@@ -19,7 +19,7 @@ export class ProductsComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.service.getAllProductsWithLimit()
+    this.service.getAllProducts()
       .subscribe({
         next: (result) => {
           this.products = result;

@@ -2,9 +2,15 @@
   <img class="product-image" [src]="product.image" [attr.alt]="product.title">
   <div class="product-details">
     <h3 class="product-title"> {{product.title}} </h3>
+    <h3 class="product-name"> {{product.name}} </h3>
     <p class="product-price">$  {{product.price}} </p>
-    <p class="product-description"> {{product.description}} </p>
-    <p class="product-category"> {{product.category}} </p>
+    <p class="product-description">Popis: {{product.description}} </p>
+
+    <p class="product-availableQuantity">availableQuantity: {{product.availableQuantity}} </p>
+    <p class="product-categoryId">categoryId:  {{product.categoryId}} </p>
+    <p class="product-categoryName"> categoryName:  {{product.categoryName}} </p>
+    <p class="product-categoryDescription">categoryDescription:  {{product.categoryDescription}} </p>
+
     <div class="product-rating">
       <span class="rating-value"> {{product.rating?.rate}} </span>
       <span class="rating-count"> {{ product.rating?.count }}  reviews</span>

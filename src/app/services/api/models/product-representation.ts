@@ -7,6 +7,13 @@ export interface ProductRepresentation {
   category?: string,
   image?: string,
   price?: number,
-  rating?: RatingRepresentation
+  rating?: RatingRepresentation,
+  name?: string,
+  availableQuantity?: number,
+  categoryId?: number,
+  categoryName?: string,
+  categoryDescription?: string
+
+
 
 }
