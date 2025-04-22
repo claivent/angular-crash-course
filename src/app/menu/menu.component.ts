@@ -16,4 +16,8 @@ export class MenuComponent {
   navigateToAbout() {
     this.router.navigate(['about']);
   }
+
+  navigateToLearn() {
+    this.router.navigate(['learn']);
+  }
 }

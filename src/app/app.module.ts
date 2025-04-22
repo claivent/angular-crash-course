@@ -9,11 +9,13 @@ import { MessageDetailsComponent } from './message-details/message-details.compo
 import {MyFirstService} from "./services/my-first.service";
 import { MenuComponent } from './menu/menu.component';
 import { AboutComponent } from './about/about.component';
+import { LearnComponent } from './learn/learn.component';
 import {HttpClient, HttpClientModule} from "@angular/common/http";
 import { ProductsComponent } from './products/products.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import {NgOptimizedImage} from "@angular/common";
 import { NewProductComponent } from './new-product/new-product.component';
+import { AsyncTestComponent } from './async-test/async-test.component';
 
 @NgModule({
   declarations: [
@@ -22,9 +24,11 @@ import { NewProductComponent } from './new-product/new-product.component';
     MessageDetailsComponent,
     MenuComponent,
     AboutComponent,
+    LearnComponent,
     ProductsComponent,
     ProductDetailsComponent,
-    NewProductComponent
+    NewProductComponent,
+    AsyncTestComponent
   ],
   imports: [
     BrowserModule,

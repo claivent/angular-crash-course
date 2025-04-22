@@ -2,8 +2,10 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {MyFirstCompComponent} from "./my-first-comp/my-first-comp.component";
 import {AboutComponent} from "./about/about.component";
+import {LearnComponent} from "./learn/learn.component";
 import {ProductsComponent} from "./products/products.component";
 import {NewProductComponent} from "./new-product/new-product.component";
+import {AsyncTestComponent} from "./async-test/async-test.component";
 
 const routes: Routes = [
   {
@@ -14,6 +16,17 @@ const routes: Routes = [
     path: 'about',
     component: AboutComponent
   },
+
+  {
+    path: 'learn',
+    component: LearnComponent
+  },
+
+  {
+    path: 'async-test',
+    component: AsyncTestComponent
+  },
+
   {
     path: 'about/:username',
     component: AboutComponent
